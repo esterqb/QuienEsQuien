@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="699.0" prefWidth="905.0" style="-fx-background-color: rgba(255,255,255,0.8); -fx-background-radius: 20px; -fx-border-radius: 20px; -fx-border-color: #ffffff;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.quienesquien.quienesquien.HelpController">
+   <children>
+      <Label layoutX="29.0" layoutY="26.0" text="¿Cómo se juega?" textFill="#220e31">
+         <font>
+            <Font name="Courier New Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="77.0" maxHeight="42.0" maxWidth="851.0" minHeight="42.0" minWidth="851.0" prefHeight="42.0" prefWidth="851.0" text="1. Introduce tu nombre en el cuadro de la ventana inicial." textFill="#19133a">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="119.0" maxHeight="42.0" maxWidth="851.0" minHeight="42.0" minWidth="851.0" prefHeight="42.0" prefWidth="851.0" style="-fx-background-radius: 30px;" text="2. Dale al botón de play que hay junto al cuadro para introducir el nombre, esto te llevará a la ventana de juego. Este trata de adivinar el personaje escogido por el juego." textFill="#19133a" wrapText="true">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="161.0" maxHeight="42.0" maxWidth="851.0" minHeight="42.0" minWidth="851.0" prefHeight="42.0" prefWidth="851.0" text="3. En esta ventana se muestran los personajes y abajo las preguntas que puedes ir haciendo." textFill="#19133a">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="203.0" maxHeight="42.0" maxWidth="851.0" minHeight="42.0" minWidth="851.0" prefHeight="42.0" prefWidth="851.0" text="4. Para ver las preguntas, debes hacer clic en el cuadro de &quot;Selecciona una pregunta&quot; para que este se despliegue y puedas ver las preguntas disponibles." textFill="#19133a" wrapText="true">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="245.0" maxHeight="42.0" maxWidth="851.0" minHeight="42.0" minWidth="851.0" prefHeight="42.0" prefWidth="851.0" text="5. Una vez selecciones una pregunta, las respuestas aparecerán al lado del botón &quot;Guess&quot;. Las respuestas solo serán &quot;SÍ&quot; o &quot;NO&quot;." textFill="#19133a" wrapText="true">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="287.0" maxHeight="42.0" maxWidth="851.0" minHeight="42.0" minWidth="851.0" prefHeight="42.0" prefWidth="851.0" text="6. Basándote en las respuestas, debes ir seleccionando personajes para que la imagen de estos se oscurezcan y sepas que lo has descartado." textFill="#19133a" wrapText="true">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="329.0" maxHeight="42.0" maxWidth="851.0" minHeight="42.0" minWidth="851.0" prefHeight="42.0" prefWidth="851.0" text="7. Si te equivocas, no pasa nada, haciendo clic otra vez vuelve a ser visible." textFill="#19133a" wrapText="true">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="371.0" maxHeight="42.0" maxWidth="851.0" minHeight="42.0" minWidth="851.0" prefHeight="42.0" prefWidth="851.0" text="8. Si crees que ya sabes quién es el personaje, puedes hacer clic en el botón de adivinar (&quot;Guess&quot;) y seleccionar el personaje." textFill="#19133a" wrapText="true">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="413.0" maxHeight="42.0" maxWidth="851.0" minHeight="42.0" minWidth="851.0" prefHeight="42.0" prefWidth="851.0" text="9. Si has acertado y ese era el personaje, enhorabuena, has ganado. Tu nombre y puntos aparecerán en el ranking si estás entre los que tienen más puntos." textFill="#19133a" wrapText="true">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="455.0" maxHeight="42.0" maxWidth="851.0" minHeight="42.0" minWidth="851.0" prefHeight="42.0" prefWidth="851.0" text="10. Si aciertas con el menor número de preguntas hechas posibles, tendrás más puntos." textFill="#19133a" wrapText="true">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="497.0" maxHeight="42.0" maxWidth="851.0" minHeight="42.0" minWidth="851.0" prefHeight="42.0" prefWidth="851.0" text="11. Si no has acertado al adivinar el personaje, habrás perdido." textFill="#19133a" wrapText="true">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="539.0" maxHeight="42.0" maxWidth="851.0" minHeight="42.0" minWidth="851.0" prefHeight="42.0" prefWidth="851.0" text="12. Si pierdes, serás dirigido a otra ventana para elegir si quieres jugar otra vez o no." textFill="#19133a" wrapText="true">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="581.0" maxHeight="42.0" maxWidth="851.0" minHeight="42.0" minWidth="851.0" prefHeight="42.0" prefWidth="851.0" text="13. Si eliges jugar de nuevo, volverás a la pantalla inicial. Si eliges no jugar otra vez, se cerrará el juego automáticamente." textFill="#19133a" wrapText="true">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="okButton" fitHeight="35.0" fitWidth="97.0" layoutX="812.0" layoutY="650.0" onMouseClicked="#okClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/Entiendo.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</Pane>

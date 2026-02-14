@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="771.0" prefWidth="1134.0" style="-fx-background-color: #1a1443;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.quienesquien.quienesquien.PlayController">
+   <children>
+      <ImageView fitHeight="1143.0" fitWidth="1209.0" layoutX="-4.0" layoutY="-372.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/playbackground.gif" />
+         </image>
+      </ImageView>
+      <TilePane alignment="TOP_RIGHT" hgap="10.0" layoutY="28.0" prefColumns="8" prefHeight="615.0" prefRows="3" prefTileHeight="175.0" prefTileWidth="125.0" prefWidth="1134.0" vgap="15.0">
+         <children>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0" TilePane.alignment="TOP_CENTER">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/Alex.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Jorge Nitales" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0" TilePane.alignment="TOP_CENTER">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/Alfred.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Mike Okslong" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0" TilePane.alignment="TOP_CENTER">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/Anita.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Debora Melnavo" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0" TilePane.alignment="TOP_CENTER">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/Anne.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Sor Raimunda" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0" TilePane.alignment="TOP_CENTER">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/Bernard.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Felipe Neduro" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0" TilePane.alignment="TOP_CENTER">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/Bill.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Tomas Desta" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0" TilePane.alignment="TOP_CENTER">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/Charles.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" maxHeight="100.0" prefWidth="94.0" text="Isidro Gamos Alcura" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0" TilePane.alignment="TOP_CENTER">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/Claire.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Elba Ginazzo" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/David.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Aquiles Castro" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/Eric.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Dixon Myas" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/Frans.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Fermin Gadura" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/George.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Pedro Gado" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/Herman.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Alberto Catetas" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/Joe.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Jeffrey Epstein" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/Maria.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Jenny Tales" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/Max.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Haaland Omeló" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/Paul.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Lotten Gogordo" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/Peter.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Elfo Yeteo" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/Philip.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Kenny Galindo" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/Richard.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Rodolfo LLado" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/Robert.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Keppin Gotte" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/Sam.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Teorino Elollo" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/Susan.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Ramonica Hall" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox onMouseClicked="#descartarPersonaje" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/caras/Tom.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" prefWidth="80.0" text="Elmas Kapoyas" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Courier New" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </TilePane>
+      <Pane layoutX="140.0" layoutY="601.0" prefHeight="155.0" prefWidth="856.0" style="-fx-background-color: rgba(255,255,255,0.49); -fx-background-radius: 20px; -fx-border-radius: 20px; -fx-border-color: #ffffff;">
+         <children>
+            <Label layoutX="29.0" layoutY="26.0" text="Pregunta" textFill="#220e31">
+               <font>
+                  <Font name="Courier New Bold" size="20.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="preguntas" layoutX="29.0" layoutY="65.0" onAction="#preguntaSeleccionada" prefHeight="32.0" prefWidth="374.0" promptText="Selecciona una pregunta" style="-fx-background-radius: 30px; -fx-border-radius: 30px; -fx-border-color: #7837c0; -fx-background-color: #d3b7ef; -fx-font-family: Courier New">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></ComboBox>
+            <Label fx:id="respuesta" layoutX="507.0" layoutY="65.0" prefHeight="32.0" prefWidth="186.0" textFill="#220e31">
+               <font>
+                  <Font name="Courier New" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="guessButton" fitHeight="35.0" fitWidth="97.0" layoutX="415.0" layoutY="64.0" onMouseClicked="#guessClicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/guess.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children></Pane>
+      <ImageView fx:id="helpButton" fitHeight="35.0" fitWidth="97.0" layoutX="1041.0" layoutY="722.0" onMouseClicked="#helpClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/help.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>

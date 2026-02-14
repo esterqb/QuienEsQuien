@@ -1,0 +1,17 @@
+package com.quienesquien.quienesquien;
+
+import java.io.Serializable;
+
+public class Jugador implements Serializable {
+    private String nombre;
+    private int puntos;
+
+    public Jugador(String nombre, int puntos) {
+        this.nombre = nombre;
+        this.puntos = puntos;
+    }
+
+    public String getNombre() { return nombre; }
+    public int getPuntos() { return puntos; }
+    public void setPuntos(int puntos) { this.puntos = puntos; }
+}

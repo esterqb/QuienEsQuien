@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="771.0" prefWidth="1134.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.quienesquien.quienesquien.LoseController">
+   <children>
+      <ImageView fitHeight="548.0" fitWidth="566.0" layoutX="285.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/gameover.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="helpButton" fitHeight="35.0" fitWidth="97.0" layoutX="1041.0" layoutY="722.0" onMouseClicked="#helpClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/help.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Pane layoutX="577.0" layoutY="469.0" prefHeight="146.0" prefWidth="137.0" style="-fx-background-color: #000000;" />
+      <Pane fx:id="yesButton" layoutX="310.0" layoutY="500.0" onMouseClicked="#yesClicked" prefHeight="62.0" prefWidth="89.0">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Pane>
+      <Pane fx:id="noButton" layoutX="724.0" layoutY="505.0" onMouseClicked="#noClicked" prefHeight="50.0" prefWidth="70.0">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Pane>
+   </children>
+</AnchorPane>

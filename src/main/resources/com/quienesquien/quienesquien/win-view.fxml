@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="771.0" prefWidth="1134.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.quienesquien.quienesquien.WinController">
+   <children>
+      <ImageView fitHeight="771.0" fitWidth="777.0" layoutX="-125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/win.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="771.0" fitWidth="777.0" layoutX="646.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/win.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="helpButton" fitHeight="35.0" fitWidth="97.0" layoutX="1041.0" layoutY="722.0" onMouseClicked="#helpClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/help.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="424.0" fitWidth="647.0" layoutX="323.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/ganaste.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="playAgain" alignment="CENTER" contentDisplay="CENTER" layoutX="520.0" layoutY="386.0" onMouseClicked="#playAgain" prefHeight="81.0" prefWidth="253.0" text="Jugar otra vez" textAlignment="CENTER" textFill="#a2ff96">
+         <font>
+            <Font name="Courier New" size="30.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="salir" alignment="CENTER" layoutX="520.0" layoutY="467.0" onMouseClicked="#exit" prefHeight="81.0" prefWidth="253.0" text="Salir" textFill="#b28eff">
+         <font>
+            <Font name="Courier New" size="30.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="username" alignment="CENTER" contentDisplay="CENTER" layoutX="520.0" layoutY="68.0" prefHeight="81.0" prefWidth="253.0" textAlignment="CENTER" textFill="#ff96e6">
+         <font>
+            <Font name="Courier New" size="30.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="puntos" alignment="CENTER" contentDisplay="CENTER" layoutX="520.0" layoutY="149.0" prefHeight="81.0" prefWidth="253.0" textAlignment="CENTER" textFill="#f3ffac">
+         <font>
+            <Font name="Courier New" size="30.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+   </children>
+</AnchorPane>
