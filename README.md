@@ -43,3 +43,7 @@ Si te equivocas al hacer clic sobre alguno que no querías descartar, no pasa na
 **Maven:** Gestión de dependencias.
 
 **Las imágenes que aparecen en este juego no son de mi propiedad. Los botones han sido generados mediante Inteligencia Artificial. Los rostros de los personajes son creación del juego original de Hasbro©️. Sus nombres han sido modificados por mera diversión 😉.**
+
+## Objetivo
+
+Esta aplicación ha sido creada como trabajo para la asignatura Desarrollo de Interfaces de 2ºDAM.
