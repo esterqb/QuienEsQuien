@@ -4,3 +4,4 @@ Ester:14600
 Pato:13720
 Kerry Kaverga:14360
 sus:7000
+Ester:9400
