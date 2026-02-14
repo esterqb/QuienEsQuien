@@ -24,6 +24,8 @@ Gráficos estilo pixel art con fondos animados.
 
 4. **Derrota**: Si fallas en tu deducción, verás una pantalla de "Game Over".
 
+5. **Botón de ayuda:** El juego cuenta con un botón de ayuda en todas las pantallas del juego para poder leer las instrucciones en cualquier momento que se desee. Se accede pulsando al botón "Help" en la esquina inferior derecha de cualquier pantalla. Cuando se quiera salir de las instrucciones, se debe pulsar el botón de "Volver al juego".
+
 ### 🎮 Instrucciones de Juego
 **Registro**: Escribe tu nombre en el menú de inicio y pulsa el botón azul de reproducción (Play - ▶️).
 
